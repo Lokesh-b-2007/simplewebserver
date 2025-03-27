@@ -1,4 +1,6 @@
 # EX01 Developing a Simple Webserver
+## Name: LOKESH B
+## REF.no.: 212224040172
 ## Date: 27/03/2025
 
 ## AIM:
@@ -22,7 +24,7 @@ Serving the HTML pages.
 Testing the webserver.
 
 ## PROGRAM:
-"""
+```
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
 content='''
@@ -55,11 +57,13 @@ print("This is my webserver")
 server_address =('',8000)
 httpd = HTTPServer(server_address,MyServer)
 httpd.serve_forever()
-"""
+```
 
 
 ## OUTPUT:
+
 ![alt text](<Screenshot 2025-03-27 111433.png>)
+
 ![alt text](<Screenshot 2025-03-27 111559.png>)
 
 ## RESULT:
